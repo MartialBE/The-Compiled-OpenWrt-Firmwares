@@ -1,6 +1,5 @@
 # PROJECT OPENWRT
-## The-Compiled-OpenWrt-Firmwares
-### The Compiled OpenWrt Firmwares' Repository.
+## The Compiled OpenWrt Firmwares' Repository.
 #### Source Code: [project-openwrt/openwrt](https://github.com/project-openwrt/openwrt).
 
 #### Welcome to my Telegram Group: [@ctcgfw\_openwrt\_discuss](https://t.me/ctcgfw\_openwrt\_discuss).
