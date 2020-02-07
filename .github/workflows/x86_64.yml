@@ -33,8 +33,6 @@ jobs:
         cd /home/runner
         git clone --branch master --depth 1 https://github.com/project-openwrt/openwrt.git
         sudo chown -R runner:runner openwrt
-        mkdir -p -m 777 /mnt/openwrt/dl/ /home/runner/openwrt/dl/
-        ln -sf /mnt/openwrt/dl /home/runner/openwrt/dl
         cd /home/runner/openwrt
         ./scripts/feeds update -a 
         ./scripts/feeds install -a
