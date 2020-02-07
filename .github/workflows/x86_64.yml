@@ -42,7 +42,7 @@ jobs:
         cd /home/runner/openwrt
         let make_process=$(nproc)+1
         make defconfig
-        make -j${make_process}
+        make -j${make_process} || { rm -rf /home/runner/openwrt/dl; make -j${make_process}; }
     - name: Upload Config
       uses: actions/upload-artifact@v1
       with:
